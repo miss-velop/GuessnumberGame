@@ -1,0 +1,39 @@
+body{
+    font-size: 1.2em;
+    background: url('bg.png') no-repeat center fixed;
+    background-size: cover;
+}
+#container{
+    max-width: 80%;
+    text-align: center;
+    margin:0 auto;
+    border-radius: 10px;
+    padding:10px;
+    background-color: rgb(61, 137, 180);
+    opacity: 0.98;
+}
+.panel{
+    max-width:80%;
+    margin: 20px auto;
+    border-radius:10px ;
+    padding: 10px;
+    background-color: cornflowerblue;
+}
+button{
+    background: #387;
+    height:3em;
+    width:80%;
+    margin-bottom: 1.5px;
+    border-radius: 10px;
+    color:white;
+    font-size:0.8em;
+}
+input{
+    border-radius: 10px;
+    width:80%;
+    height: 4em;
+    text-align: center;
+}
+.activeButton{
+    background-color: green;
+}
