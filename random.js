@@ -72,13 +72,13 @@ function compareGuess()
     {
         if(userGuess>compGuess)
         {
-            document.getElementById('textOutput').innerHTML='you loose' + compGuess +'was the number';
+            document.getElementById('textOutput').innerHTML='you lose' + compGuess +'was the number';
             document.getElementById('container').style.backgroundColor='red';
             gameEnded();
         }
         else if(userGuess<compGuess)
         {
-            document.getElementById('textOutput').innerHTML='you loose'+ compGuess +'was the number';
+            document.getElementById('textOutput').innerHTML='you lose'+ compGuess +'was the number';
             document.getElementById('container').style.backgroundColor='red';
             gameEnded();
         }
